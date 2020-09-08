@@ -8,10 +8,7 @@ use Doctrine\Common\Persistence\ObjectRepository;
 
 class RealizaLogin implements InterfaceControllerRequisicao
 {
-    /**
-     * @var \Doctrine\ORM\EntityManagerInterface
-     */
-    private $entityManager;
+
     /**
      * @var ObjectRepository
      */
